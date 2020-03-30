@@ -1,0 +1,101 @@
+/*
+Master Stylesheet
+==================================
+Tamplate Name:Minimo
+Author:samafe islam tonnyma
+Author Url:http//samafe.com
+description: PSD to HTML Prectise
+tag:Blog
+*/
+/*
+      Contents
+      ==============
+      1.typrography
+      2.heading
+      3.
+      4.
+      5.
+      6.
+      7.
+      font-family: 'Inconsolata', monospace;
+font-family: 'Playfair Display', serif;
+
+*/
+/*==========================
+     TRYPOGRAPHY
+     =========================
+*/
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Playfair+Display&display=swap');
+*{
+box-sizing: border-box;
+}
+body{
+margin: 0;
+padding: 0;
+font-family: 'Playfair Display', serif;
+font-weight: 400;
+font-size: 14px;
+color: #626262;
+
+}
+h1 h2 h3 h4 h5 h6{
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 35px;
+	margin: 0;
+}
+p{
+	margin: 0;
+}
+/*==========================
+     		Header
+     =========================
+*/
+.container{
+	width: 90%;
+	margin: 0 auto;
+	
+}
+.header{
+	display: flex;
+	justify-content: space-between;
+	padding: 40px 0;
+}
+}
+.logo{
+	width: 10%;
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	width: 60%;
+}
+.menu ul{
+	text-align: right;
+	margin: ;
+}
+,menu ul li{
+	display: inline-block;
+}
+.menu ul li a{
+	text-transform: uppercase;
+	text-decoration: none;
+	
+	color: #626262;
+	padding:0 60px;
+}
+.menu ul li last-child a{
+	padding-right:0;
+}
+.menu ul li a:hover{
+	color: #74b9ff;
+	transition: .03s all ease-in-out;
+}
+.banner{
+	background-image : url(../images/banner.jpg);
+	height:500px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
